@@ -45,3 +45,25 @@ def main():
 if __name__ == "__main__":
     main()
 
+API_KEY_LUMA = '1e544e6bcd154dad8b5156c8042f13b6'
+
+import requests
+
+def send_to_api_and_display_usdz(transcribed_text):
+    url = 'https://webapp.engineeringlumalabs.com/api/v3/creations'
+    headers = {'Authorization': 'luma-api-key=API_KEY_LUMA', 'Content-Type': 'application/json'}
+    data = {"input": {"text": transcribed_text, "type": "imagine_3d_one"}}
+    
+    response = requests.post(url, headers=headers, json=data)
+    if response.status_code == 200:
+        usdz_url = response.json().get('url')  # Adjust based on actual API response
+        if usdz_url:
+            print('USDZ object is ready!')
+            print(f"Download USDZ Object: {usdz_url}")
+        else:
+            print('USDZ object URL not found in the response.')
+    else:
+        print('Failed to create USDZ object.')
+
+# Test the function with a string
+send_to_api_and_display_usdz("Your test string here")

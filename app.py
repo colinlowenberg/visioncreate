@@ -21,6 +21,9 @@ products = [
     {"name": "Wand🔮", "usdz_url": "https://pub-1f023e605fa54fa389f2b51cfb51d679.r2.dev/bca0509a18c0_528389f3c695_a_magic_wand_covere.usdz"},
     {"name": "Truck🛸", "usdz_url": "https://pub-1f023e605fa54fa389f2b51cfb51d679.r2.dev/f352220bc0a1_567e8c2ce6e1_truck_avia_a31_min.usdz"},
     {"name": "Fake Pokemon🐧", "usdz_url": "https://pub-1f023e605fa54fa389f2b51cfb51d679.r2.dev/8629d582f77a_d0280c1e62ba_Tiger_Cub__Cute__Bi.usdz"},
+    {"name": "Dog🐕", "usdz_url": "https://pub-1f023e605fa54fa389f2b51cfb51d679.r2.dev/347F0E0C-F95F-40C4-95D9-D459D67DF613.usdz"},
+    {"name": "Disco ball🪩", "usdz_url": "https://pub-1f023e605fa54fa389f2b51cfb51d679.r2.dev/53A4F1B6-2086-4FD2-932C-189DB9F45868.usdz"},
+
 ]
 
 # Function to display products with emojis in two columns
@@ -73,7 +76,7 @@ def send_to_api_and_display_usdz(transcribed_text):
                 st.balloons()
                 st.markdown(f"[Download USDZ Object]({usdz_url})", unsafe_allow_html=True)
         else:
-            st.error('Failed to create USDZ object.')
+            st.ballons()
 
 def main():
     display_products_with_emojis(products)
