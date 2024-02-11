@@ -1,6 +1,6 @@
 # GODXR - Experience your kindgom
 ## AKA Speak2Create or GenDecor
-
+### Made during -  https://lu.ma/0210-vision-pro-hack
 ## Introduction
 Speak anything you want to make, and the application showcases a variety of products, with the functionality to download associated Vision Pro Object (USDZ) files directly. It includes a speech-to-text feature allowing users to name a product, which is then sent to a specified API to retrieve and display the corresponding Vision Pro file.
 
