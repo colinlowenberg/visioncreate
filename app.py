@@ -64,7 +64,7 @@ def speech_to_text(audio_file_path):
 
 def send_to_api_and_display_usdz(transcribed_text):
     url = 'https://webapp.engineeringlumalabs.com/api/v3/creations'
-    headers = {'Authorization': 'luma-api-key=API_KEY_LUMA', 'Content-Type': 'application/json'}
+    headers = {'Authorization': 'luma-api-key'=API_KEY_LUMA, 'Content-Type': 'application/json'}
     data = {"input": {"text": transcribed_text, "type": "imagine_3d_one"}}
     
     with st.spinner('Creating USDZ object...'):
