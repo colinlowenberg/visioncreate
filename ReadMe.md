@@ -29,16 +29,16 @@ Launch the application by running:
 bash
 Copy code
 streamlit run app.py
-Contributing
+## Contributing
 
 Contributions to the Streamlit USDZ Product Showcase are welcome. Please take a look at the contributing guidelines for more information.
 
-License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 
-
+## Appendix 
 
 Given the limitations of this environment for file generation and download, I'll guide you on how to create these files manually:
 
