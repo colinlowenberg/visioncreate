@@ -2,7 +2,7 @@
 ## AKA Speak2Create or GenDecor
 
 ## Introduction
-This God mode anything you want to make application showcases a variety of products with the functionality to download associated USDZ files directly. It includes a speech-to-text feature allowing users to name a product, which is then sent to a specified API to retrieve and display the corresponding USDZ file.
+This God mode means speak anything you want to make, and the application showcases a variety of products, with the functionality to download associated Vision Pro Object (USDZ) files directly. It includes a speech-to-text feature allowing users to name a product, which is then sent to a specified API to retrieve and display the corresponding Vision Pro file.
 
 ## Features
 - Product Gallery: Display a list of product names with options to download their USDZ files.
