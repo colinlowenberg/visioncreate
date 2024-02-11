@@ -62,7 +62,7 @@ def send_to_api_and_display_usdz(transcribed_text):
         else:
             print('USDZ object URL not found in the response.')
     else:
-        print('Failed to create USDZ object.') """
+        print('Failed to create USDZ object.')
 
 # Test the function with a string
-send_to_api_and_display_usdz("Your test string here")
+send_to_api_and_display_usdz("Your test string here")  """
