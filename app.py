@@ -5,7 +5,7 @@ from audiorecorder import audiorecorder
 import speech_recognition as sr
 import requests
 import json
-API_KEY_LUMA = '1e544e6bcd154dad8b5156c8042f13b6'
+
 
 # Products dictionary now without image URLs
 products = [
