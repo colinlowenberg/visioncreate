@@ -45,7 +45,6 @@ def main():
 if __name__ == "__main__":
     main()
 
-API_KEY_LUMA = '1e544e6bcd154dad8b5156c8042f13b6'
 
 import requests
 
