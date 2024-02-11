@@ -1,4 +1,5 @@
 # GODXR - Experience your kindgom
+## AKA Speak2Create or GenDecor
 
 ## Introduction
 This God mode anything you want to make application showcases a variety of products with the functionality to download associated USDZ files directly. It includes a speech-to-text feature allowing users to name a product, which is then sent to a specified API to retrieve and display the corresponding USDZ file.
@@ -30,7 +31,7 @@ Copy code
 streamlit run app.py
 Contributing
 
-Contributions to the Streamlit USDZ Product Showcase are welcome. Please refer to the contributing guidelines for more information.
+Contributions to the Streamlit USDZ Product Showcase are welcome. Please take a look at the contributing guidelines for more information.
 
 License
 
